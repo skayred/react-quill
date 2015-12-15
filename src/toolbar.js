@@ -21,12 +21,6 @@ var defaultColors = [
 var defaultItems = [
 
 	{ label:'Formats', type:'group', items: [
-		{ label:'Font', type:'font', items: [
-			{ label:'Sans Serif',  value:'sans-serif' },
-			{ label:'Serif',       value:'serif' },
-			{ label:'Monospace',   value:'monospace' }
-		]},
-		{ type:'separator' },
 		{ label:'Size', type:'size', items: [
 			{ label:'Normal',  value:'10px' },
 			{ label:'Smaller', value:'13px' },

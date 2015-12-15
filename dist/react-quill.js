@@ -64,7 +64,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = __webpack_require__(/*! ./component */ 1);
 	module.exports.Mixin = __webpack_require__(/*! ./mixin */ 4);
 	module.exports.Toolbar = __webpack_require__(/*! ./toolbar */ 3);
-
+	module.exports.Quill = __webpack_require__(/*! quill */ 5);
 
 /***/ },
 /* 1 */
@@ -379,7 +379,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /*!**************************************************************************************!*\
   !*** external {"commonjs":"react","commonjs2":"react","amd":"react","root":"React"} ***!
   \**************************************************************************************/
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_2__;
 
@@ -413,12 +413,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	var defaultItems = [
 	
 		{ label:'Formats', type:'group', items: [
-			{ label:'Font', type:'font', items: [
-				{ label:'Sans Serif',  value:'sans-serif' },
-				{ label:'Serif',       value:'serif' },
-				{ label:'Monospace',   value:'monospace' }
-			]},
-			{ type:'separator' },
 			{ label:'Size', type:'size', items: [
 				{ label:'Normal',  value:'10px' },
 				{ label:'Smaller', value:'13px' },
@@ -547,6 +541,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	QuillToolbar.defaultItems = defaultItems;
 	QuillToolbar.defaultColors = defaultColors;
 
+
 /***/ },
 /* 4 */
 /*!**********************!*\
@@ -624,7 +619,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /*!**************************************************************************************!*\
   !*** external {"commonjs":"quill","commonjs2":"quill","amd":"quill","root":"Quill"} ***!
   \**************************************************************************************/
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_5__;
 
