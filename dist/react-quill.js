@@ -312,6 +312,7 @@ return /******/ (function(modules) { // webpackBootstrap
 					React.DOM.div({
 						key: 'editor-' + Math.random(),
 						ref: 'editor',
+						style: {border: "1px solid rgba(34, 36, 38, 0.15);"},
 						className: 'quill-contents',
 						dangerouslySetInnerHTML: { __html:this.getEditorContents() }
 					})
